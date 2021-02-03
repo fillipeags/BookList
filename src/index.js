@@ -12,7 +12,7 @@ const firstBook = {
 const secondBook = {
   img: "https://m.media-amazon.com/images/I/618qR6-xcQL._AC_UY218_.jpg",
   title: " Jake Knapp, John Zeratsky",
-  author: "Sprint. O Método Usado no Google ",
+  author: "Sprint. O Método Usado no Google",
 };
 
 function BookList() {
