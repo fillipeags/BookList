@@ -5,12 +5,14 @@ import "./index.css";
 
 const books = [
   {
+    id: 1,
     img: "https://m.media-amazon.com/images/I/617wmdLWVcL._AC_UY218_.jpg",
     title: "Ed Catmull, Amy Wallace",
     author: "Criatvidade S.A",
   },
 
   {
+    id: 2,
     img: "https://m.media-amazon.com/images/I/618qR6-xcQL._AC_UY218_.jpg",
     title: " Jake Knapp, John Zeratsky",
     author: "Sprint. O Método Usado no Google",
@@ -21,8 +23,7 @@ function BookList() {
   return (
     <section className="booklist">
       {books.map((book) => {
-        const { img, title, author } = book;
-        return <Book book={book}></Book>;
+        return <Book key={book.id} book={book}></Book>;
       })}
     </section>
   );
