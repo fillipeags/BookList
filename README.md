@@ -7,6 +7,10 @@ handler to take users to the Seller webpage.
 
 Just very basic stuff !
 
+## There is a live version demo hosted on netlify through the link below:
+
+### [Live Demo on Netlify](https://b0oklist.netlify.app/)
+
 ## How to Run the project:
 
 ### `npm install`
@@ -20,8 +24,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 <p align="center">
 <img src="../BookList/src/assets/image-1.png">
-</p>
-
-<p align="center">
-<img src="../BookList/src/assets/image-2.png">
 </p>
