@@ -48,7 +48,7 @@ export const books = [
     id: 6,
     img: "https://m.media-amazon.com/images/I/81OB0tom28L._AC_UY218_.jpg",
     author: "Carol S. Dweck e S. Duarte",
-    title: "Mindset: A nova psicologia do sucesso",
+    title: "Mindset: A nova psicologia do sucesso ",
     storeLink:
       "https://www.amazon.com.br/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_aps_sr_pg1_1?ie=UTF8&adId=A04399752K62WU1ZRCH12&url=%2FMindset-Carol-S-Dweck%2Fdp%2F8547000240%2Fref%3Dsr_1_2_sspa%3F__mk_pt_BR%3D%25C3%2585M%25C3%2585%25C5%25BD%25C3%2595%25C3%2591%26dchild%3D1%26keywords%3Ddesign%2Bdo%2Bdia%2Ba%2Bdia%26qid%3D1612474383%26sr%3D8-2-spons%26psc%3D1&qualifier=1612474383&id=1499784541194807&widgetName=sp_atf",
   },
