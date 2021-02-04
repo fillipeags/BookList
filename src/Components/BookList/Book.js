@@ -11,8 +11,8 @@ const Book = (props) => {
   return (
     <article className="book">
       <img src={img} alt="" />
-      <h1>{author}</h1>
-      <h4>{title}</h4>
+      <h1>{title}</h1>
+      <h4>{author}</h4>
       <button type="button" onClick={clickHandler}>
         GO TO STORE
       </button>
