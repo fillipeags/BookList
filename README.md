@@ -22,6 +22,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-<p align="center">
-<img src="../BookList/src/assets/image-1.png">
-</p>
+![BookList](../BookList/src/assets/image-1.png)
