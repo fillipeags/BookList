@@ -3,49 +3,39 @@ import ReactDOM from "react-dom";
 
 import "./index.css";
 
-const firstBook = {
-  img: "https://m.media-amazon.com/images/I/617wmdLWVcL._AC_UY218_.jpg",
-  title: "Ed Catmull, Amy Wallace",
-  author: "Criatvidade S.A",
-};
+const books = [
+  {
+    img: "https://m.media-amazon.com/images/I/617wmdLWVcL._AC_UY218_.jpg",
+    title: "Ed Catmull, Amy Wallace",
+    author: "Criatvidade S.A",
+  },
 
-const secondBook = {
-  img: "https://m.media-amazon.com/images/I/618qR6-xcQL._AC_UY218_.jpg",
-  title: " Jake Knapp, John Zeratsky",
-  author: "Sprint. O Método Usado no Google",
-};
+  {
+    img: "https://m.media-amazon.com/images/I/618qR6-xcQL._AC_UY218_.jpg",
+    title: " Jake Knapp, John Zeratsky",
+    author: "Sprint. O Método Usado no Google",
+  },
+];
 
 function BookList() {
   return (
     <section className="booklist">
-      <Book
-        img={firstBook.img}
-        title={firstBook.title}
-        author={firstBook.author}
-      >
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis,
-          reiciendis?
-        </p>
-      </Book>
-      <Book
-        img={secondBook.img}
-        title={secondBook.title}
-        author={secondBook.author}
-      />
+      {books.map((book) => {
+        const { img, title, author } = book;
+        return <Book book={book}></Book>;
+      })}
     </section>
   );
 }
 
 const Book = (props) => {
-  const { img, title, author, children } = props;
+  const { img, title, author } = props.book;
 
   return (
     <article className="book">
       <img src={img} alt="" />
       <h1>{author}</h1>
       <h4>{title}</h4>
-      {children}
     </article>
   );
 };
