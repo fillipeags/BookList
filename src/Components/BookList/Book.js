@@ -14,7 +14,7 @@ const Book = (props) => {
       <h1>{title}</h1>
       <h4>{author}</h4>
       <button type="button" onClick={clickHandler}>
-        GO TO STORE
+        GO TO STORESSSS
       </button>
     </article>
   );
